@@ -19,7 +19,7 @@ export default function Login(){
                 await loginUser({email: formData.email, password: formData.password})
 
                 login({username: formData.email})
-                navigate(from, {replace: true})
+                navigate('/host', {replace: true})
             } catch (err) {
                 alert('Login failed', err.message)
             }
