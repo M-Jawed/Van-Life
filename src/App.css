@@ -1,19 +1,19 @@
-*{
+* {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Inter', sans-serif;
-  background-color: #FFF7ED;
+  font-family: "Inter", sans-serif;
+  background-color: #fff7ed;
 }
 
 .homepage-header {
-  background-color: #FFF7ED;
+  background-color: #fff7ed;
   width: 100%;
   height: 100px;
-  color: #4D4D4D;
+  color: #4d4d4d;
   border-bottom: 1px solid gray;
   box-shadow: 2px 2px 12px gray;
 }
@@ -29,7 +29,7 @@ body {
   margin: 0;
   display: flex;
   align-items: center;
-  gap: 40px;  
+  gap: 40px;
 }
 
 .homepage-header nav ul li {
@@ -38,7 +38,7 @@ body {
 
 .homepage-header nav ul li a {
   text-decoration: none;
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-weight: bold;
   font-size: 1.2rem;
 }
@@ -67,7 +67,7 @@ footer {
 }
 
 .footer-div {
-  color: #AAAAAA;
+  color: #aaaaaa;
   font-size: 1.1rem;
 }
 
@@ -76,7 +76,7 @@ footer {
 }
 
 .contact-div {
-  color: #AAAAAA;
+  color: #aaaaaa;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -84,7 +84,7 @@ footer {
 
 .contact-div ul li a {
   text-decoration: none;
-  color: #AAAAAA;
+  color: #aaaaaa;
   font-weight: bold;
   font-size: 1.9rem;
   margin: 0;
@@ -92,7 +92,6 @@ footer {
 
 .contact-div ul {
   list-style: none;
-
 }
 
 .contact-div p {
@@ -134,7 +133,7 @@ footer {
   font-weight: 900;
 }
 
-.text-div h1 span{
+.text-div h1 span {
   display: block;
 }
 
@@ -152,7 +151,7 @@ footer {
   margin-top: 10px;
 }
 
-.text-div p{
+.text-div p {
   font-weight: bold;
   margin-top: -20px;
   font-size: 1.2rem;
@@ -171,13 +170,13 @@ footer {
   font-weight: bold;
   border: none;
   border-radius: 5px;
-  background-color: #FF8C38;
+  background-color: #ff8c38;
   color: white;
   cursor: pointer;
 }
 
 .text-div button:hover {
-  background-color: #FFB070;
+  background-color: #ffb070;
 }
 
 .popular-vans {
@@ -194,7 +193,7 @@ footer {
 }
 
 .van {
-  background-color: #FFF7ED;
+  background-color: #fff7ed;
   box-shadow: 1px 1px 10px 1px gray;
   width: 450px;
   padding: 10px;
@@ -217,7 +216,7 @@ footer {
   font-size: 1rem;
 }
 
-.img-div{
+.img-div {
   width: 350px;
   height: 350px;
   margin: 0 auto;
@@ -247,7 +246,7 @@ footer {
   text-align: left;
 }
 
-.van-texts p{
+.van-texts p {
   margin-top: -10px;
 }
 
@@ -261,7 +260,7 @@ footer {
   margin-bottom: 50px;
 }
 
-.review-divs{
+.review-divs {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -272,16 +271,16 @@ footer {
 .review-div {
   padding: 10px;
   width: 350px;
-  height: 250px;
+  height: 270px;
   border-radius: 5px;
-  background-color: #FFEAD0;
+  background-color: #ffead0;
 }
 
 .review-div p {
   margin: 0;
 }
 
-.review-desc{
+.review-desc {
   height: 190px;
   text-align: left;
   padding: 0 20px;
@@ -311,22 +310,22 @@ footer {
   font-family: inherit;
   font-weight: bold;
   border: none;
-  background-color: #FF8C38;
+  background-color: #ff8c38;
   color: white;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .last-section button:hover {
-  background-color: #FFB070;
+  background-color: #ffb070;
 }
 
-.review-text{
+.review-text {
   text-align: left;
   padding: 0 20px;
 }
 
-.vans-page{
+.vans-page {
   padding: 0 90px;
   margin-top: 50px;
 }
@@ -366,7 +365,7 @@ footer {
   cursor: pointer;
 }
 
-.van-text-div{
+.van-text-div {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -385,18 +384,18 @@ footer {
 }
 
 .simple {
-    background-color: #E17654;
-    color: #FFEAD0;
+  background-color: #e17654;
+  color: #ffead0;
 }
 
 .rugged {
-  background-color: #115E59;
-  color: #FFEAD0;
+  background-color: #115e59;
+  color: #ffead0;
 }
 
 .luxury {
   background-color: #161616;
-  color: #FFEAD0;
+  color: #ffead0;
 }
 
 .van-link {
@@ -418,8 +417,8 @@ footer {
 }
 
 .filtered-links {
-  background-color: #FFEAD0;
-  color: #4D4D4D;
+  background-color: #ffead0;
+  color: #4d4d4d;
   padding: 10px 20px;
   text-decoration: none;
   font-weight: bold;
@@ -430,7 +429,7 @@ footer {
 .clear-filter {
   background-color: transparent;
   cursor: pointer;
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-weight: bold;
   border: none;
   text-underline-offset: 4px;
@@ -466,7 +465,7 @@ footer {
   width: 100%;
 }
 
-.van-detail-info h2 span{
+.van-detail-info h2 span {
   font-size: 1rem;
   font-weight: normal;
 }
@@ -486,14 +485,14 @@ footer {
   height: 50px;
   font-size: 1.4rem;
   font-weight: bold;
-  background-color: #FF8C38;
+  background-color: #ff8c38;
   border: none;
   border-radius: 5px;
   color: white;
   cursor: pointer;
 }
 
-@media(max-width: 812px){
+@media (max-width: 812px) {
   .van-detail {
     flex-direction: column;
     align-items: center;
@@ -522,7 +521,7 @@ footer {
 .back-to-vans a {
   text-decoration: 2px solid underline;
   text-underline-offset: 4px;
-  color: #201F1D;
+  color: #201f1d;
 }
 
 .about-page {
@@ -565,7 +564,7 @@ footer {
 }
 
 .explore-vans {
-  background-color: #FFCC8D;
+  background-color: #ffcc8d;
   padding: 50px;
   width: 50%;
   margin: 40px auto;
@@ -593,7 +592,7 @@ footer {
   cursor: pointer;
 }
 
-@media(max-width: 1183px){
+@media (max-width: 1183px) {
   .about-div {
     margin-top: 90px;
     margin-bottom: 90px;
@@ -608,7 +607,7 @@ footer {
   }
 }
 
-@media (max-width: 998px){
+@media (max-width: 998px) {
   .about-div {
     margin: 150px 0;
   }
@@ -631,7 +630,7 @@ footer {
   }
 }
 
-@media (max-width: 600px ){
+@media (max-width: 600px) {
   .about-page {
     padding: 0;
     margin-top: 290px;
@@ -693,7 +692,7 @@ footer {
 .host-dashboard-div {
   width: 100%;
   padding: 0 80px;
-  background-color: #FFEAD0;
+  background-color: #ffead0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -709,7 +708,7 @@ footer {
 }
 
 .host-dashboard-welcome p {
-  color: #4D4D4D;
+  color: #4d4d4d;
 }
 
 .host-dashboard-welcome p span {
@@ -726,13 +725,12 @@ footer {
 
 .host-dashboard-details a:hover {
   text-decoration: underline;
-  color: #4D4D4D;
-
+  color: #4d4d4d;
 }
 
 .host-dashboard-review {
   width: 100%;
-  background-color: #FFDDB2;
+  background-color: #ffddb2;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -758,7 +756,7 @@ footer {
 }
 
 .host-dashboard-review h1.h-star span {
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-weight: normal;
 }
 
@@ -769,7 +767,7 @@ footer {
 
 .host-dashboard-review-link a:hover {
   text-decoration: underline;
-  color: #4D4D4D;
+  color: #4d4d4d;
 }
 
 .host-listed-vans {
@@ -791,7 +789,7 @@ footer {
 
 .listed-vans-heading a:hover {
   text-decoration: underline;
-  color: #4D4D4D;
+  color: #4d4d4d;
 }
 
 .listed-vans-img-div {
@@ -840,7 +838,7 @@ footer {
 
 .listed-vans-link a:hover {
   text-decoration: underline;
-  color: #4D4D4D;
+  color: #4d4d4d;
 }
 
 .host-vans {
@@ -851,18 +849,18 @@ footer {
   font-size: 2rem;
 }
 
-@media (max-width: 535px){
+@media (max-width: 535px) {
   .host-vans {
     padding: 20px 60px;
   }
 }
 
-@media (max-width: 470px){
+@media (max-width: 470px) {
   .host-vans {
     padding: 20px 20px;
   }
 
-  .listed-van{
+  .listed-van {
     width: 100%;
   }
 }
@@ -915,12 +913,12 @@ footer {
 }
 
 .host-van-link {
-  text-decoration: 2px underline #201F1D;
+  text-decoration: 2px underline #201f1d;
   text-underline-offset: 4px;
   display: flex;
   align-items: center;
   gap: 10px;
-  color: #201F1D;
+  color: #201f1d;
 }
 
 .host-van-details-links {
@@ -956,10 +954,10 @@ footer {
 .host-van-pricing h1 span {
   font-weight: normal;
   font-size: 1.8rem;
-  color: #4D4D4D;
+  color: #4d4d4d;
 }
 
-.host-van-photos-section{
+.host-van-photos-section {
   margin-top: 30px;
 }
 
@@ -990,7 +988,7 @@ footer {
   font-size: 2.2rem;
 }
 
-.income-first-section h1:nth-of-type(2){
+.income-first-section h1:nth-of-type(2) {
   font-weight: 900;
 }
 
@@ -1025,7 +1023,7 @@ footer {
 }
 
 .income-last-section-info p {
-  color: #4D4D4D;
+  color: #4d4d4d;
 }
 
 .income-last-section-info p span {
@@ -1044,7 +1042,7 @@ footer {
 }
 
 .host-reviews-section p {
-  color: #4D4D4D;
+  color: #4d4d4d;
 }
 
 .host-reviews-section p span {
@@ -1066,7 +1064,7 @@ footer {
 }
 
 .host-reviews {
-  border-bottom: 2px solid #C7C7C7;
+  border-bottom: 2px solid #c7c7c7;
   margin-bottom: 30px;
   padding-bottom: 20px;
 }
@@ -1077,7 +1075,7 @@ footer {
 
 .host-reviews p span {
   text-decoration: none;
-  color: #8C8C8C;
+  color: #8c8c8c;
   font-weight: normal;
 }
 
@@ -1112,23 +1110,23 @@ footer {
   justify-content: center;
 }
 
-form .form-inputs input{
+form .form-inputs input {
   display: block;
   width: 100%;
   height: 40px;
   padding: 0 10px;
   font-family: inherit;
   border-radius: 5px;
-  border: 1px solid #D1D5DB;
+  border: 1px solid #d1d5db;
 }
 
-form .form-inputs input:nth-of-type(1){
+form .form-inputs input:nth-of-type(1) {
   border-bottom: none;
   border-end-end-radius: 0;
   border-bottom-left-radius: 0;
 }
 
-form .form-inputs input:nth-of-type(2){
+form .form-inputs input:nth-of-type(2) {
   border-start-start-radius: 0;
   border-top-right-radius: 0;
 }
@@ -1137,7 +1135,7 @@ form .form-inputs button {
   width: 100%;
   height: 50px;
   margin-top: 20px;
-  background-color: #FF8C38;
+  background-color: #ff8c38;
   border: none;
   color: white;
   font-family: inherit;
@@ -1161,7 +1159,7 @@ form p:nth-of-type(2) {
 }
 
 form p:nth-of-type(2) span {
-  color: #FF8C38;
+  color: #ff8c38;
   font-weight: bold;
 }
 
@@ -1172,9 +1170,8 @@ form p:nth-of-type(2) span {
   width: 50%;
 }
 
-
 nav ul li a.login-link {
-  background-color: #FF8C38;
+  background-color: #ff8c38;
   padding: 5px 10px;
   border-radius: 5px;
   color: white;
